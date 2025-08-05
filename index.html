@@ -1,59 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Miranox Vault Network</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; line-height: 1.6; }
-        header { background-color: #2d3748; color: #fff; padding: 1rem 2rem; }
-        h1 { margin: 0; font-size: 2rem; }
-        nav a { color: #fff; margin-right: 1rem; text-decoration: none; }
-        .hero { background-color: #edf2f7; padding: 4rem 2rem; text-align: center; }
-        .hero h2 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-        .hero p { font-size: 1.2rem; margin-bottom: 1.5rem; }
-        .cta-button { display: inline-block; background-color: #319795; color: #fff; padding: 0.75rem 1.5rem; border-radius: 4px; text-decoration: none; font-weight: bold; }
-        .sections { display: flex; flex-wrap: wrap; justify-content: center; padding: 2rem; }
-        .card { background-color: #fff; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 1rem; padding: 1.5rem; max-width: 300px; text-align: center; flex: 1 1 260px; }
-        .card h3 { margin-top: 0; }
-        .card p { font-size: 0.95rem; margin-bottom: 1rem; }
-        .card a { display: inline-block; background-color: #3182ce; color: #fff; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; font-size: 0.9rem; }
-        footer { background-color: #2d3748; color: #fff; text-align: center; padding: 1rem 0; margin-top: 2rem; }
-        @media (max-width: 600px) {
-            .hero h2 { font-size: 1.8rem; }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miranox Vault Network</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: #fdf8f4;
+      margin: 0;
+      padding: 0;
+      color: #444;
+    }
+    header {
+      background: #f4e7d4;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #3c3b3f;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      color: #6e665e;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    section {
+      background: #ffffff;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+    section:hover {
+      transform: translateY(-4px);
+    }
+    section h2 {
+      color: #524a46;
+    }
+    section p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #5e5e5e;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.2rem;
+      background-color: #d6bfae;
+      color: #2c2b2b;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    a.button:hover {
+      background-color: #c7a88f;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Miranox Vault Network</h1>
-    </header>
-    <section class="hero">
-        <h2>Unlock curated digital toolkits for your evolving life</h2>
-        <p>From co‑parenting logs to magical tokens and growth planners—our vaults help you focus on what matters while we handle the small stuff. Start with a free sample and upgrade anytime.</p>
-        <a class="cta-button" href="vault/">Explore the Vault Pass</a>
+  <header>
+    <h1>Welcome to the Miranox Vault</h1>
+    <p>A sanctuary of reflection, resilience, and forward momentum.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>📚 Custody Toolkit</h2>
+      <p>Designed to empower single parents and guardians managing high-conflict custody or co-parenting situations. Gain tools for compliance, documentation, and peace of mind.</p>
+      <a href="/custody" class="button">Enter Toolkit</a>
     </section>
- 
-    <section class="sections">
-        <div class="card">
-            <h3>Co‑Parenting Toolkit</h3>
-            <p>Clear communication, therapy reimbursement logs, and court‑ready incident trackers—everything you need to stay organized.</p>
-            <a href="custody/">Explore</a>
-        </div>
-        <div class="card">
-            <h3>Mindset & Growth</h3>
-            <p>Journals, goal planners, and Notion dashboards to keep you aligned with your purpose and growth.</p>
-            <a href="mindset/">Explore</a>
-        </div>
-     </div>
-        <div class="card">
-            <h3>Daily Inspirations</h3>
-            <p>Minimalist wallpapers and affirmation decks to keep you grounded and inspired.</p>
-            <a href="affirmations/">Explore</a>
-        </div>
+
+    <section>
+      <h2>🌱 Mindset & Journaling</h2>
+      <p>Daily growth prompts, mood trackers, and thought space to cultivate resilience, self-worth, and focus. Tailored to bring peace and clarity through reflection.</p>
+      <a href="/mindset" class="button">Explore Mindset</a>
     </section>
-    <footer>
-        Built with care by Miranox.
-    </footer>
+
+    <section>
+      <h2>🧘 Daily Affirmations</h2>
+      <p>Gentle reminders to ground your day in clarity, strength, and self-love. Browse curated affirmations and mantras to carry with you wherever you go.</p>
+      <a href="/affirmations" class="button">Read Affirmations</a>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Miranox Vault. All rights reserved.
+  </footer>
 </body>
 </html>
